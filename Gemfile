@@ -26,6 +26,8 @@ gem 'jbuilder', '~> 2.7'
 
 gem 'figaro', '~> 1.1', '>= 1.1.1'
 
+gem 'friendly_id', '~> 5.2', '>= 5.2.5'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
@@ -36,6 +38,7 @@ group :development, :test do
   gem 'faker'
   gem 'pry'
   gem 'rubocop', '~> 0.74.0', require: false
+  gem 'better_errors', '~> 2.5', '>= 2.5.1'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
 end
@@ -44,6 +47,7 @@ group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'web-console', '>= 3.3.0'
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
