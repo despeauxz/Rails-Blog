@@ -38,7 +38,7 @@ group :development, :test do
   gem 'faker'
   gem 'pry'
   gem 'rubocop', '~> 0.74.0', require: false
-  gem 'better_errors', '~> 2.5', '>= 2.5.1'
+  gem 'better_errors', '~> 2.8'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
 end
