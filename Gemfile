@@ -72,6 +72,6 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 gem 'mailgun-ruby'
 
-gem 'sidekiq', '~> 6.0'
+gem 'sidekiq', '~> 6.2'
 
 gem 'sidekiq-cron', '~> 1.1'
